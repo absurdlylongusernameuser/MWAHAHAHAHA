@@ -1,5 +1,13 @@
+:root {
+  --Yup: #2bc4f3ea;
+  --Sup: #d80606c2;
+}
+
+* {
+  font-family: 'Krona One', sans-serif;
+}
+
 body {
-  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -13,9 +21,13 @@ textarea {
   padding: 10px;
 }
 
+span {
+  text-decoration: underline;
+}
+
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  background-color: var(--Yup);
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
@@ -37,8 +49,8 @@ textarea {
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: var(--Yup);
+  color: var(--Sup);
   border-top: 1px dashed #000000;
 }
 
